@@ -66,8 +66,13 @@ async function main() {
     }
   }
 
-  fs.writeFileSync("topic-count.json", JSON.stringify(counts, null, 2));
-  console.log("Updated topic-count.json:", counts);
+  // Sort counts from highest to lowest
+  const sortedCounts = Object.fromEntries(
+    Object.entries(counts).sort((a, b) => b[1] - a[1])
+  );
+
+  fs.writeFileSync("topic-count.json", JSON.stringify(sortedCounts, null, 2));
+  console.log("Updated topic-count.json:", sortedCounts);
 }
 
 main();
