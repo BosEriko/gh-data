@@ -1,7 +1,7 @@
 import fs from "fs";
 import fetch from "node-fetch";
 
-const username = BosEriko;
+const username = "BosEriko";
 const token = process.env.GITHUB_TOKEN;
 
 const allowedTopics = JSON.parse(
