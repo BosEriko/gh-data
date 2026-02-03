@@ -73,6 +73,16 @@ async function main() {
 
   fs.writeFileSync("topic-count.json", JSON.stringify(sortedCounts, null, 2));
   console.log("Updated topic-count.json:", sortedCounts);
+
+  // Write last-sync date
+  const today = new Date();
+  const yyyy = today.getFullYear();
+  const mm = String(today.getMonth() + 1).padStart(2, "0");
+  const dd = String(today.getDate()).padStart(2, "0");
+  const dateString = `${yyyy}-${mm}-${dd}`;
+
+  fs.writeFileSync("last-sync", dateString);
+  console.log("Updated last-sync:", dateString);
 }
 
 main();
