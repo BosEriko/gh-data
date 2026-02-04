@@ -1,1 +1,16 @@
-["javascript", "typescript", "ruby"]
+[
+  "javascript",
+  "typescript",
+  "ruby",
+  "elixir",
+  "php",
+  "react",
+  "nextjs",
+  "nodejs",
+  "rails",
+  "graphql",
+  "docker",
+  "tailwind",
+  "postgresql",
+  "mysql"
+]
