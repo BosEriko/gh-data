@@ -66,15 +66,15 @@ async function main() {
     }
   }
 
-  // Sort counts from highest to lowest
-  const sortedCounts = Object.fromEntries(
-    Object.entries(counts).sort((a, b) => b[1] - a[1])
+  const filteredCounts = Object.fromEntries(
+    Object.entries(counts)
+      .filter(([_, count]) => count > 0)
+      .sort((a, b) => b[1] - a[1])
   );
 
-  fs.writeFileSync("topic-count.json", JSON.stringify(sortedCounts, null, 2));
-  console.log("Updated topic-count.json:", sortedCounts);
+  fs.writeFileSync("topic-count.json", JSON.stringify(filteredCounts, null, 2));
+  console.log("Updated topic-count.json:", filteredCounts);
 
-  // Write last-sync date
   const today = new Date();
   const yyyy = today.getFullYear();
   const mm = String(today.getMonth() + 1).padStart(2, "0");
