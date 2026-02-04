@@ -1,4 +1,7 @@
 {
   "typescript": 2,
-  "ruby": 1
+  "react": 1,
+  "nextjs": 1,
+  "nodejs": 1,
+  "tailwind": 1
 }
