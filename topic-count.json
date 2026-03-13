@@ -1,7 +1,8 @@
 {
+  "react": 3,
+  "nextjs": 3,
+  "nodejs": 3,
+  "tailwind": 3,
   "typescript": 2,
-  "react": 2,
-  "nextjs": 2,
-  "nodejs": 2,
-  "tailwind": 2
+  "docker": 1
 }
