@@ -9,7 +9,10 @@
     "location": "Remote",
     "active": true,
     "responsibilities": [
-      "Maintained and enhanced a TypeScript application."
+      "Maintained and enhanced a NestJS back-end application.",
+      "Built and optimized a NextJS front-end interface for seamless usability.",
+      "Integrated APIs to ensure smooth data communication between front-end and back-end.",
+      "Conducted code reviews and implemented best practices for scalability."
     ]
   },
   {
