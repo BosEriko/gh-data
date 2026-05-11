@@ -8,6 +8,7 @@
     },
     "location": "Remote",
     "active": true,
+    "hidden": true,
     "responsibilities": [
       "Maintained and enhanced a NestJS back-end application.",
       "Built and optimized a NextJS front-end interface for seamless usability.",
@@ -24,6 +25,7 @@
     },
     "location": "Remote",
     "active": false,
+    "hidden": false,
     "responsibilities": [
       "Maintained and enhanced a Ruby on Rails back-end application.",
       "Built and optimized a ReactJS front-end interface for seamless usability.",
@@ -40,6 +42,7 @@
     },
     "location": "Remote",
     "active": false,
+    "hidden": false,
     "responsibilities": [
       "Maintained and expanded a Ruby on Rails project for marketing solutions.",
       "Migrated the system from a full-stack Rails app to a Rails + ReactJS hybrid.",
@@ -56,6 +59,7 @@
     },
     "location": "Makati, Philippines",
     "active": false,
+    "hidden": false,
     "responsibilities": [
       "Built new modules for the Inventory Management System using Ruby on Rails.",
       "Created custom dashboards to present thousands of data points as graphs and charts.",
@@ -72,6 +76,7 @@
     },
     "location": "Makati, Philippines",
     "active": false,
+    "hidden": false,
     "responsibilities": [
       "Designed and maintained Talkpush’s website with a focus on SEO and performance.",
       "Developed new features for the company's main application using Ruby on Rails.",
