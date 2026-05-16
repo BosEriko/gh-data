@@ -1,62 +1,62 @@
 {
-  product: {
-    title: "Product",
-    description: "These are repositories that I work on constantly.",
+  "product": {
+    "title": "Product",
+    "description": "These are repositories that I work on constantly."
   },
-  project: {
-    title: "Project",
-    description: "These are repositories that I work on every now and then.",
+  "project": {
+    "title": "Project",
+    "description": "These are repositories that I work on every now and then."
   },
-  typescript: {
-    title: "TypeScript",
-    description: "Repositories related to TypeScript.",
+  "typescript": {
+    "title": "TypeScript",
+    "description": "Repositories related to TypeScript."
   },
-  ruby: {
-    title: "Ruby",
-    description: "Repositories related to Ruby.",
+  "ruby": {
+    "title": "Ruby",
+    "description": "Repositories related to Ruby."
   },
-  elixir: {
-    title: "Elixir",
-    description: "Repositories related to Elixir.",
+  "elixir": {
+    "title": "Elixir",
+    "description": "Repositories related to Elixir."
   },
-  php: {
-    title: "PHP",
-    description: "Repositories related to PHP.",
+  "php": {
+    "title": "PHP",
+    "description": "Repositories related to PHP."
   },
-  react: {
-    title: "React",
-    description: "Repositories related to React.",
+  "react": {
+    "title": "React",
+    "description": "Repositories related to React."
   },
-  nextjs: {
-    title: "Next.js",
-    description: "Repositories related to Next.js.",
+  "nextjs": {
+    "title": "Next.js",
+    "description": "Repositories related to Next.js."
   },
-  nodejs: {
-    title: "Node.js",
-    description: "Repositories related to Node.js.",
+  "nodejs": {
+    "title": "Node.js",
+    "description": "Repositories related to Node.js."
   },
-  rails: {
-    title: "Rails",
-    description: "Repositories related to Rails.",
+  "rails": {
+    "title": "Rails",
+    "description": "Repositories related to Rails."
   },
-  graphql: {
-    title: "GraphQL",
-    description: "Repositories related to GraphQL.",
+  "graphql": {
+    "title": "GraphQL",
+    "description": "Repositories related to GraphQL."
   },
-  docker: {
-    title: "Docker",
-    description: "Repositories related to Docker.",
+  "docker": {
+    "title": "Docker",
+    "description": "Repositories related to Docker."
   },
-  tailwind: {
-    title: "Tailwind",
-    description: "Repositories related to Tailwind.",
+  "tailwind": {
+    "title": "Tailwind",
+    "description": "Repositories related to Tailwind."
   },
-  postgresql: {
-    title: "PostgreSQL",
-    description: "Repositories related to PostgreSQL.",
+  "postgresql": {
+    "title": "PostgreSQL",
+    "description": "Repositories related to PostgreSQL."
   },
-  mysql: {
-    title: "MySQL",
-    description: "Repositories related to MySQL.",
-  },
+  "mysql": {
+    "title": "MySQL",
+    "description": "Repositories related to MySQL."
+  }
 }
