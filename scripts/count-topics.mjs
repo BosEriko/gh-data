@@ -9,7 +9,7 @@ const topicsConfig = JSON.parse(
 );
 
 const allowedTopics = Object.keys(topicsConfig).filter(
-  (topic) => topic !== "product" && topic !== "project"
+  (topic) => !["product", "project"].includes(topic)
 );
 
 const headers = {
@@ -57,10 +57,7 @@ async function main() {
 
   for (const repo of repos) {
     const topics = await fetchTopics(repo);
-
-    const hasProjectOrProduct =
-      topics.includes("project") || topics.includes("product");
-
+    const hasProjectOrProduct = topics.includes("project") || topics.includes("product");
     if (!hasProjectOrProduct) continue;
 
     for (const lang of allowedTopics) {
@@ -71,9 +68,7 @@ async function main() {
   }
 
   const filteredCounts = Object.fromEntries(
-    Object.entries(counts)
-      .filter(([_, count]) => count > 0)
-      .sort((a, b) => b[1] - a[1])
+    Object.entries(counts).filter(([_, count]) => count > 0).sort((a, b) => b[1] - a[1])
   );
 
   fs.writeFileSync("topic-count.json", JSON.stringify(filteredCounts, null, 2));
