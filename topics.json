@@ -2,61 +2,91 @@
   "product": {
     "title": "Product",
     "description": "These are repositories that I work on constantly."
+    "deviconClass": null,
+    "bg": null
   },
   "project": {
     "title": "Project",
     "description": "These are repositories that I work on every now and then."
+    "deviconClass": null,
+    "bg": null
   },
   "typescript": {
     "title": "TypeScript",
-    "description": "Repositories related to TypeScript."
+    "description": "Repositories related to TypeScript.",
+    "deviconClass": "devicon-typescript-plain",
+    "bg": "bg-blue-600"
   },
   "ruby": {
     "title": "Ruby",
-    "description": "Repositories related to Ruby."
+    "description": "Repositories related to Ruby.",
+    "deviconClass": "devicon-ruby-plain",
+    "bg": "bg-red-500"
   },
   "elixir": {
     "title": "Elixir",
-    "description": "Repositories related to Elixir."
+    "description": "Repositories related to Elixir.",
+    "deviconClass": "devicon-elixir-plain",
+    "bg": "bg-purple-600"
   },
   "php": {
     "title": "PHP",
-    "description": "Repositories related to PHP."
+    "description": "Repositories related to PHP.",
+    "deviconClass": "devicon-php-plain",
+    "bg": "bg-blue-500"
   },
   "react": {
     "title": "React",
-    "description": "Repositories related to React."
+    "description": "Repositories related to React.",
+    "deviconClass": "devicon-react-original",
+    "bg": "bg-cyan-400"
   },
   "nextjs": {
     "title": "Next.js",
-    "description": "Repositories related to Next.js."
+    "description": "Repositories related to Next.js.",
+    "deviconClass": "devicon-nextjs-plain",
+    "bg": "bg-gray-900"
   },
   "nodejs": {
     "title": "Node.js",
-    "description": "Repositories related to Node.js."
+    "description": "Repositories related to Node.js.",
+    "deviconClass": "devicon-nodejs-plain",
+    "bg": "bg-green-600"
   },
   "rails": {
     "title": "Rails",
-    "description": "Repositories related to Rails."
+    "description": "Repositories related to Rails.",
+    "deviconClass": "devicon-rails-plain",
+    "bg": "bg-red-600"
   },
   "graphql": {
     "title": "GraphQL",
-    "description": "Repositories related to GraphQL."
+    "description": "Repositories related to GraphQL.",
+    "deviconClass": "devicon-graphql-plain",
+    "bg": "bg-pink-500"
   },
   "docker": {
     "title": "Docker",
-    "description": "Repositories related to Docker."
+    "description": "Repositories related to Docker.",
+    "deviconClass": "devicon-docker-plain",
+    "bg": "bg-blue-400"
   },
   "tailwind": {
     "title": "Tailwind",
-    "description": "Repositories related to Tailwind."
+    "description": "Repositories related to Tailwind.",
+    "deviconClass": "devicon-tailwindcss-plain",
+    "bg": "bg-teal-400"
   },
   "postgresql": {
     "title": "PostgreSQL",
-    "description": "Repositories related to PostgreSQL."
+    "description": "Repositories related to PostgreSQL.",
+    "deviconClass": "devicon-postgresql-plain",
+    "bg": "bg-blue-800"
   },
   "mysql": {
     "title": "MySQL",
-    "description": "Repositories related to MySQL."
+    "description": "Repositories related to MySQL.",
+    "deviconClass": "devicon-mysql-plain",
+    "bg": "bg-blue-600"
   }
 }
