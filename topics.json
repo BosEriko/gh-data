@@ -15,78 +15,78 @@
     "title": "TypeScript",
     "description": "Repositories related to TypeScript.",
     "deviconClass": "devicon-typescript-plain",
-    "bg": "bg-blue-600"
+    "bg": "#2563EB"
   },
   "ruby": {
     "title": "Ruby",
     "description": "Repositories related to Ruby.",
     "deviconClass": "devicon-ruby-plain",
-    "bg": "bg-red-500"
+    "bg": "#EF4444"
   },
   "elixir": {
     "title": "Elixir",
     "description": "Repositories related to Elixir.",
     "deviconClass": "devicon-elixir-plain",
-    "bg": "bg-purple-600"
+    "bg": "#9333EA"
   },
   "php": {
     "title": "PHP",
     "description": "Repositories related to PHP.",
     "deviconClass": "devicon-php-plain",
-    "bg": "bg-blue-500"
+    "bg": "#3B82F6"
   },
   "react": {
     "title": "React",
     "description": "Repositories related to React.",
     "deviconClass": "devicon-react-original",
-    "bg": "bg-cyan-400"
+    "bg": "#22D3EE"
   },
   "nextjs": {
     "title": "Next.js",
     "description": "Repositories related to Next.js.",
     "deviconClass": "devicon-nextjs-plain",
-    "bg": "bg-gray-900"
+    "bg": "#111827"
   },
   "nodejs": {
     "title": "Node.js",
     "description": "Repositories related to Node.js.",
     "deviconClass": "devicon-nodejs-plain",
-    "bg": "bg-green-600"
+    "bg": "#16A34A"
   },
   "rails": {
     "title": "Rails",
     "description": "Repositories related to Rails.",
     "deviconClass": "devicon-rails-plain",
-    "bg": "bg-red-600"
+    "bg": "#DC2626"
   },
   "graphql": {
     "title": "GraphQL",
     "description": "Repositories related to GraphQL.",
     "deviconClass": "devicon-graphql-plain",
-    "bg": "bg-pink-500"
+    "bg": "#EC4899"
   },
   "docker": {
     "title": "Docker",
     "description": "Repositories related to Docker.",
     "deviconClass": "devicon-docker-plain",
-    "bg": "bg-blue-400"
+    "bg": "#38BDF8"
   },
   "tailwind": {
     "title": "Tailwind",
     "description": "Repositories related to Tailwind.",
     "deviconClass": "devicon-tailwindcss-plain",
-    "bg": "bg-teal-400"
+    "bg": "#2DD4BF"
   },
   "postgresql": {
     "title": "PostgreSQL",
     "description": "Repositories related to PostgreSQL.",
     "deviconClass": "devicon-postgresql-plain",
-    "bg": "bg-blue-800"
+    "bg": "#1E40AF"
   },
   "mysql": {
     "title": "MySQL",
     "description": "Repositories related to MySQL.",
     "deviconClass": "devicon-mysql-plain",
-    "bg": "bg-blue-600"
+    "bg": "#2563EB"
   }
 }
