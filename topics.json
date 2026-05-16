@@ -1,13 +1,13 @@
 {
   "product": {
     "title": "Product",
-    "description": "These are repositories that I work on constantly."
+    "description": "These are repositories that I work on constantly.",
     "deviconClass": null,
     "bg": null
   },
   "project": {
     "title": "Project",
-    "description": "These are repositories that I work on every now and then."
+    "description": "These are repositories that I work on every now and then.",
     "deviconClass": null,
     "bg": null
   },
