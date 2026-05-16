@@ -4,8 +4,12 @@ import fetch from "node-fetch";
 const username = "BosEriko";
 const token = process.env.GITHUB_TOKEN;
 
-const allowedTopics = JSON.parse(
+const topicsConfig = JSON.parse(
   fs.readFileSync("topics.json", "utf-8")
+);
+
+const allowedTopics = Object.keys(topicsConfig).filter(
+  (topic) => topic !== "product" && topic !== "project"
 );
 
 const headers = {
