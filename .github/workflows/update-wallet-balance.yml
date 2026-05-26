@@ -1,0 +1,37 @@
+name: Update Wallet Balance
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 12 * * 5" # every hour (change if you want)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: npm install node-fetch@3 dotenv
+
+      - name: Run wallet fetcher
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUDGET_BAKER_TOKEN: ${{ secrets.BUDGET_BAKER_TOKEN }}
+        run: node scripts/wallet-balance.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "BosEriko"
+          git config user.email "bos@eriko.ph"
+          git add wallet-balance.json last-sync
+          git commit -m "Update wallet balance" || echo "No changes"
+          git push
