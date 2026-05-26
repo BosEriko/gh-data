@@ -24,7 +24,6 @@ jobs:
 
       - name: Run wallet fetcher
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUDGET_BAKER_TOKEN: ${{ secrets.BUDGET_BAKER_TOKEN }}
         run: node scripts/wallet-balance.mjs
 
