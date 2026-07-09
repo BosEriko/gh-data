@@ -1,6 +1,23 @@
 [
   {
     "position": "Software Engineer",
+    "company": "Uni-Tech",
+    "date": {
+      "start": 1783296000000,
+      "end": null
+    },
+    "location": "Remote",
+    "active": true,
+    "hidden": true,
+    "responsibilities": [
+      "Maintained and enhanced a NodeJS back-end application.",
+      "Built and optimized AWS Lambda requests for seamless usability.",
+      "Integrated APIs to ensure smooth data communication between front-end and back-end.",
+      "Conducted code reviews and implemented best practices for scalability."
+    ]
+  },
+  {
+    "position": "Software Engineer",
     "company": "The DNA Company",
     "date": {
       "start": 1774569600000,
@@ -8,7 +25,7 @@
     },
     "location": "Remote",
     "active": true,
-    "hidden": true,
+    "hidden": false,
     "responsibilities": [
       "Maintained and enhanced a NestJS back-end application.",
       "Built and optimized a NextJS front-end interface for seamless usability.",
